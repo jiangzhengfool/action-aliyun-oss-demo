@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    alicloud:
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+      accessKey: LTAI5tRwHzwwFMPBQkQQe5Db
+      secretKey: rEESExaMXHfwGle0NwEx8OJUjwFuxW
+bucketName: testkiang

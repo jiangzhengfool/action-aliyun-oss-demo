@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
  * 阿里云OSS配置信息
  */
 @Configuration
-@PropertySource(value = "classpath:aliyun-oss.properties")
+@PropertySource(value = "classpath:application.properties")
 @ConfigurationProperties(prefix = "oss-aliyun")
 public class AliyunOssConfig {
     private String accessKey;
